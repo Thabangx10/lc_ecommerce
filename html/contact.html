@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon logo -->
+    <link rel="shortcut icon" href="https://i.postimg.cc/8cHyTGXJ/pp-840x830-pad-1000x1000-f8f8f8-u3.jpg" type="image/x-icon" style="object-fit: cover;">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+
+<style>
+    /* Body */
+body{
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+  /* Contact */
+
+  /* Style inputs, select elements and textareas */
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 50%;
+      margin-top: 0;
+    }
+}
+</style>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../html/contact.html">
+                <img src="https://i.postimg.cc/8cHyTGXJ/pp-840x830-pad-1000x1000-f8f8f8-u3.jpg" alt="Logo" width="50" height="34" loading="lazy" style="object-fit: cover;">
+            </a>
+        
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, quas non porro eum voluptatibus vero quisquam facilis dolore minus temporibus qui perspiciatis. Ad iste eum, laboriosam neque necessitatibus maiores maxime?
+        Dicta iste dolore non tenetur nam sequi aperiam aliquid quasi ducimus rem fugiat assumenda aspernatur quidem perspiciatis, ut nulla amet illum nisi! Suscipit quia provident dolore nemo aut illum expedita.
+        Ducimus sapiente laudantium culpa. Facilis deserunt voluptatem qui veritatis quod sapiente repudiandae ut, obcaecati expedita. Numquam officia cum quas vero asperiores consequatur inventore iusto libero voluptate in atque, sit excepturi.
+        Natus cupiditate ducimus distinctio aliquam quasi et odit ad, veniam provident totam. Eligendi ratione ex eius asperiores possimus ut a, reprehenderit inventore quod explicabo, minima provident accusamus ullam voluptatibus nobis?
+        Non dolore maiores neque rerum aut eaque voluptatum, animi dolor eum beatae fugit labore nostrum perferendis odit architecto fuga tempora pariatur quidem quaerat assumenda distinctio consectetur officia ullam quia! Incidunt?
+    </p>
+
+<!-- Contact form -->
+    <section class="container" id="contact">
+        <div class="row">
+          <h2 class="display-2">
+            Contact Us
+          </h2>
+        </div>
+        <div class="row">
+          <div class="contact">
+            <div class="container">
+              <p class="contact">Contact Me </p>
+              <form action="https://formspree.io/f/mjvdladp" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+               </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <p class="lead">
+            Copyright &copy; 2023
+        </p>
+    </footer>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Javascript(External) -->
+    <script src="./script/code.js"></script>
+</body>
+</html>
