@@ -21,6 +21,10 @@ body{
     bottom: 0;
 }
 
+.navbar-nav{
+  margin: auto;
+}
+
   /* Contact */
 
   /* Style inputs, select elements and textareas */
@@ -88,17 +92,31 @@ body{
 <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../html/contact.html">
-                <img src="https://i.postimg.cc/8cHyTGXJ/pp-840x830-pad-1000x1000-f8f8f8-u3.jpg" alt="Logo" width="50" height="34" loading="lazy" style="object-fit: cover;">
-            </a>
+      <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+              <img src="https://i.postimg.cc/8cHyTGXJ/pp-840x830-pad-1000x1000-f8f8f8-u3.jpg" alt="Logo" width="50" height="34" loading="lazy" style="object-fit: cover;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../html/product.html">Property</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../html/contact.html">Contact</a>
+                </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
         
     <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, quas non porro eum voluptatibus vero quisquam facilis dolore minus temporibus qui perspiciatis. Ad iste eum, laboriosam neque necessitatibus maiores maxime?
-        Dicta iste dolore non tenetur nam sequi aperiam aliquid quasi ducimus rem fugiat assumenda aspernatur quidem perspiciatis, ut nulla amet illum nisi! Suscipit quia provident dolore nemo aut illum expedita.
-        Ducimus sapiente laudantium culpa. Facilis deserunt voluptatem qui veritatis quod sapiente repudiandae ut, obcaecati expedita. Numquam officia cum quas vero asperiores consequatur inventore iusto libero voluptate in atque, sit excepturi.
-        Natus cupiditate ducimus distinctio aliquam quasi et odit ad, veniam provident totam. Eligendi ratione ex eius asperiores possimus ut a, reprehenderit inventore quod explicabo, minima provident accusamus ullam voluptatibus nobis?
-        Non dolore maiores neque rerum aut eaque voluptatum, animi dolor eum beatae fugit labore nostrum perferendis odit architecto fuga tempora pariatur quidem quaerat assumenda distinctio consectetur officia ullam quia! Incidunt?
+      We'd love to hear from you. Please fill out the form below.
     </p>
 
 <!-- Contact form -->
@@ -111,7 +129,6 @@ body{
         <div class="row">
           <div class="contact">
             <div class="container">
-              <p class="contact">Contact Me </p>
               <form action="https://formspree.io/f/mjvdladp" method="post">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -124,6 +141,10 @@ body{
             </div>
           </div>
         </div>
+    </section>
+    <!-- Conclusion Section -->
+    <section class="container">
+      <p>Thank you for visiting our property website. We strive to provide the best real estate solutions for our clients. If you have any questions or inquiries, feel free to reach out to us using the contact form above. We look forward to assisting you in finding your dream property.</p>
     </section>
     <!-- Footer -->
     <footer class="container-fluid">
